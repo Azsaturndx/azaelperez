@@ -29,6 +29,8 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
           output_location: "/public" # Built app content directory - optional
+        env:
+          HUGO_VERSION: 0.115.4-dc9524521270f81d1c038ebbb200f0cfa3427cc5+extended
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
