@@ -2,5 +2,5 @@
   "dependencies": {
     "contentful-hugo": "^3.0.0"
   },
-  "engines": { "node": ">=18.0.0" }
+  "engines": { "node": ">=17.6.0" }
 }
