@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: 399238402
+googleAnalytics: G-XGWRX8GJ8S
 
 minify:
   disableXML: true
@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Azael Pérez
-  description: ""
+  description: "The place to learn stat-of-art development and azure tips & tricks."
   keywords: [Azure, Microsoft, Blog, Developer, Azure tricks, Azure tips]
   author: Azael Pérez
   # author: ["Me", "You"] # multiple authors
@@ -49,7 +49,7 @@ params:
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
-    safari_pinned_tab: "<link / abs url>"
+    safari_pinned_tab: "/apple-touch-icon.png"
 
   label:
     text: "Azael Pérez"
@@ -100,9 +100,9 @@ params:
     google:
       SiteVerificationTag: "XYZabc"
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: ""
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: ""
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -110,9 +110,9 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/Azsaturndx/azaelperez/tree/main/content"
     Text: "Suggest Changes" # edit text
-    appendFilePath: false # to append file path to Edit link
+    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
