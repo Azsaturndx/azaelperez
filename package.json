@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "contentful-hugo": "^3.0.0"
+  }
+}
